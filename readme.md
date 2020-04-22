@@ -38,6 +38,18 @@ The libraries used in this function are cv2 and random.
 Most of them are default, except `input_path`.
 `input_path` is the path from current folder to the png file, on the otherhand `output_path` is given `"segment/{}.png"` as default, but it needs a created segment folder sometimes.
 
+For recommendation of inputs, 
+
+* guassian__size: 5, 7, or 9, default is 9
+
+* canny_min, canny_max: something around [0, 150], if canny_max is set to 255 it's not good, default if [0, 100]
+
+* dilation_size: # approximately 1% of the img's height or width
+
+* approx_proportion: 0.2-0.4 if want descriptions, 0.05-0.15 if don't, default is 0.25
+
+* height_thresh, width_thresh: 0.05 to 0.15, default is 0.1
+
 
 
 ## Example
