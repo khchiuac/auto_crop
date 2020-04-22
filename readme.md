@@ -95,10 +95,9 @@ Which is very nice.
 
 
 
-## Improvement
+## Further Improvement
 
 * The simple api is on its way.
-
 * For the parameters we still need some manual tunning, I tried to use AdaBoost here but the result is not that well. The problem here is that it's not quite clear how to determine whether a crop is good or not, as we involve not only images but also its text descriptions.
-
-* Sometimes the result also include blocks of text, i.e. not images, so we need some further things to clean this up. I personally used cnn and it works well, but I do recommend Humas Lin's method as it is absolutely more powerfully than mine.
+* Sometimes the result also include blocks of text, i.e. not images, so we need some further things to clean this up. I personally used CNN and it works well, but I do recommend Humas Lin's method as it is absolutely more powerfully than mine.
+* It is suggested somewhere that minecart can do the same job in a much simpler way, but there are some function in this library that doesn't work for me, need more research into it.
